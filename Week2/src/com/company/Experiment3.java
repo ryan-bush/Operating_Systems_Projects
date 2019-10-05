@@ -12,6 +12,7 @@ public class Experiment3 {
         object2.a = 23 ;
 
         System.out.println("Fields of object1:") ;
+        object1.changeB();
         object1.printMyFields() ;
 
         System.out.println("Fields of object2:") ;
@@ -20,8 +21,12 @@ public class Experiment3 {
 }
 
 class MyOtherClass {
-    int a ;
-    static String b ;
+    int a;
+    static String b;
+
+    void changeB() {
+        b = "";
+    }
 
     void printMyFields() {
 
