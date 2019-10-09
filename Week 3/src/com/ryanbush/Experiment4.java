@@ -25,7 +25,7 @@ class MyThread4 extends Thread {
     public void run() {
 
         for(int i = 0 ; i < 1000000000 ; i++) {
-            count = count + 1;
+            count++;
         }
     }
 }
