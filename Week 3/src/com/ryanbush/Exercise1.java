@@ -26,7 +26,7 @@ class MyThread6 extends Thread {
     String name ;
     public void run() {
         for(int i = 0 ; i < 10 ; i++) {
-            delay() ;
+            delay();
             int x = count ;
             System.out.println("Thread " + name + " read " + x) ;
             delay() ;
